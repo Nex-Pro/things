@@ -1,0 +1,16 @@
+{
+	"Entities": [
+		{
+			"name": "Eentje",
+			"type": "Model",
+			"modelURL": "./eentje.glb",
+			"collisionless": true,
+			"dimensions": {
+				"x": 0.10539738833904266,
+				"y": 0.13869334757328033,
+				"z": 0.09647151827812195
+			},
+			"grab": { "grabbable": true, "grabFollowsController": false }
+		}
+	]
+}

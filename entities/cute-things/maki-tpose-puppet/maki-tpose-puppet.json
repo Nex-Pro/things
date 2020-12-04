@@ -1,0 +1,17 @@
+{
+	"Entities": [
+		{
+			"name": "Caitlyn",
+			"type": "Model",
+			"modelURL": "https://files.tivolicloud.com/maki/avatars/kyouko/kyouko.fst",
+			"lifetime": 3600,
+			"collisionless": true,
+			"dimensions": {
+				"x": 0.30559247732162476,
+				"y": 0.5040512681007385,
+				"z": 0.16215521097183228
+			},
+			"grab": { "grabbable": true, "grabFollowsController": false }
+		}
+	]
+}

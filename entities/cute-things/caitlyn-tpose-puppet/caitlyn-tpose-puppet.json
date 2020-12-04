@@ -1,0 +1,17 @@
+{
+	"Entities": [
+		{
+			"name": "Caitlyn",
+			"type": "Model",
+			"modelURL": "https://files.tivolicloud.com/caitlyn/avatars/ookatoo/ookatoo.fst",
+			"lifetime": 3600,
+			"collisionless": true,
+			"dimensions": {
+				"x": 0.3831223249435425,
+				"y": 0.4912702441215515,
+				"z": 0.1559317708015442
+			},
+			"grab": { "grabbable": true, "grabFollowsController": false }
+		}
+	]
+}

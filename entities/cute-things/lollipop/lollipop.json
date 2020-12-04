@@ -1,0 +1,17 @@
+{
+	"Entities": [
+		{
+			"name": "Lollipop",
+			"type": "Model",
+			"modelURL": "./lollipop.fbx",
+			"lifetime": 3600,
+			"collisionless": true,
+			"dimensions": {
+				"x": 0.398845911026001,
+				"y": 0.8523820042610168,
+				"z": 0.06414876878261566
+			},
+			"grab": { "grabbable": true, "grabFollowsController": false }
+		}
+	]
+}

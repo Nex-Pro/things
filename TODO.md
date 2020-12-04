@@ -1,0 +1,3 @@
+-   Add finger paint
+-   Maybe fix https://hifi.maki.cafe/client-scripts/makisPortals/makisPortals.js
+-   Maybe fix http://cdn.snail.rocks/scripting/customTags/tags.js

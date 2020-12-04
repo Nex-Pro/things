@@ -1,0 +1,12 @@
+{
+	"Entities": [
+		{
+			"name": "Vulpie",
+			"type": "Model",
+			"modelURL": "./vulpie.fbx",
+			"collisionless": true,
+			"dimensions": { "x": 0.1253, "y": 0.2068, "z": 0.2325 },
+			"grab": { "grabbable": true, "grabFollowsController": false }
+		}
+	]
+}

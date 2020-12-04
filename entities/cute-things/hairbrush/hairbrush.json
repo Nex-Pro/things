@@ -1,0 +1,18 @@
+{
+	"Entities": [
+		{
+			"name": "Hairbrush",
+			"type": "Model",
+			"modelURL": "./hairbrush.fbx",
+			"script": "./hairbrush.js",
+			"lifetime": 3600,
+			"collisionless": true,
+			"dimensions": {
+				"x": 0.1674,
+				"y": 0.0281,
+				"z": 0.0436
+			},
+			"grab": { "grabbable": true, "grabFollowsController": false }
+		}
+	]
+}

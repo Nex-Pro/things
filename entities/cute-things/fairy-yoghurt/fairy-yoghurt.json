@@ -1,0 +1,39 @@
+{
+	"Entities": [
+		{
+			"id": "{752acbd9-b4ce-452d-9974-54cd32dbfa2c}",
+			"name": "Fairy Yoghurt",
+			"type": "Model",
+			"modelURL": "./fairy-yoghurt.fbx",
+			"dimensions": {
+				"x": 0.1334,
+				"y": 0.1059,
+				"z": 0.1334
+			},
+			"lifetime": 3600,
+			"collisionless": true,
+			"grab": { "grabbable": true, "grabFollowsController": false }
+		},
+		{
+			"name": "Fairy Yoghurt Shader",
+			"type": "Shape",
+			"shape": "Cylinder",
+			"parentID": "{752acbd9-b4ce-452d-9974-54cd32dbfa2c}",
+			"localPosition": { "x": 0, "y": 0.02647, "z": 0 },
+			"script": "./fairy-yoghurt.js",
+			"dimensions": {
+				"x": 0.1234,
+				"y": 0.001,
+				"z": 0.1234
+			},
+			"userData": "{\"ProceduralEntity\":{\"shaderUrl\":\"https://things.tivolicloud.com/entities/cute-things/fairy-yoghurt/fairy-yoghurt.fs\",\"version\":2}}",
+			"canCastShadow": false,
+			"collisionless": true,
+			"ignoreForCollisions": true,
+			"grab": {
+				"grabbable": false,
+				"grabFollowsController": false
+			}
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"Entities": [
+		{
+			"name": "Sit Point",
+			"type": "Box",
+			"dimensions": { "x": 0.2, "y": 0.2, "z": 0.2 },
+			"damping": 0,
+			"script": "./sitClient.js",
+			"serverScripts": "./sitServer.js",
+			"registrationPoint": { "x": 0.5, "y": 1, "z": 0.5 },
+			"collisionless": true,
+			"ignoreForCollisions": true,
+			"alpha": 0,
+			"shape": "Cube",
+			"grab": { "grabbable": false, "grabFollowsController": false }
+		}
+	]
+}

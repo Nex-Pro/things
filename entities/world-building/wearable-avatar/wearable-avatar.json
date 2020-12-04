@@ -1,0 +1,26 @@
+{
+	"Entities": [
+		{
+			"type": "Model",
+			"name": "Lynden",
+			"grab": {
+				"grabbable": false,
+				"grabFollowsController": false,
+				"triggerable": true
+			},
+			"animation": {
+				"url": "./idle.fbx",
+				"allowTranslation": false,
+				"loop": true,
+				"running": true
+			},
+			"collisionless": true,
+			"ignoreForCollisions": true,
+			"damping": 0,
+			"angularDamping": 0,
+			"script": "./loadAvatar.js",
+			"shapeType": "simple-compound",
+			"modelURL": "https://tivolicloud.com/api/lynden/1607042956093621.fst"
+		}
+	]
+}

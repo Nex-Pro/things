@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <title>CommsPanel</title>
+    <link rel="stylesheet" type="text/css" href="sign.css"/>
+    <script type="text/javascript" src="qrc:///qtwebchannel/qwebchannel.js"></script>
+    <script type="text/javascript" src="sign-panel.js"></script>
+  </head>
+  <body>
+    <div class="comm-container">
+      <input class="panel" type="text" id="commsPanel"/>
+    </div>
+    <div class="comm-buttons">
+      <button id="button-clear-all"> Clear All </button>
+      <button id="button-undo"> Undo </button>
+      <button id="button-redo"> Redo </button>
+      <button id="button-camera"> Camera </button>
+      <button id="button-notify"> Ping </button>
+    </div>
+
+    <div class="comm-font-container">
+      <input id="range-font-size" class="font-size" type="range" min="80" value="115" max="330"/>
+      <span> Font Size control </span>
+    </div>
+  </body>
+</html>
