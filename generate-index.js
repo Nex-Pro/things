@@ -47,6 +47,8 @@ const index = {};
 
 const categories = ["entities", "scripts", "avatars"];
 
+let thingsNotHostedHere = 0;
+
 for (const category of categories) {
 	const categoryPath = path.resolve(__dirname, category);
 	if (!fs.existsSync(categoryPath)) continue;
@@ -73,23 +75,24 @@ for (const category of categories) {
 					...JSON.parse(fs.readFileSync(subCategoryInfoPath, "utf8")),
 					things: []
 				};
-
-				// name
-				if (subCategoryInfo.name == null) {
-					invalidInfoJson("No name in", location);
-				}
-
-				// image
-				if (
-					subCategoryInfo.image != null &&
-					!fs.existsSync(
-						path.resolve(subCategoryPath, subCategoryInfo.image)
-					)
-				) {
-					invalidInfoJson("Image not found in", location);
-				}
 			} catch (err) {
 				invalidInfoJson("Invalid", location);
+				continue;
+			}
+
+			// name
+			if (subCategoryInfo.name == null) {
+				invalidInfoJson("No name in", location);
+			}
+
+			// image
+			if (
+				subCategoryInfo.image != null &&
+				!fs.existsSync(
+					path.resolve(subCategoryPath, subCategoryInfo.image)
+				)
+			) {
+				invalidInfoJson("Image not found in", location);
 			}
 		}
 
@@ -112,37 +115,74 @@ for (const category of categories) {
 						key: thing,
 						...JSON.parse(fs.readFileSync(thingInfoPath, "utf8"))
 					};
+				} catch (err) {
+					invalidInfoJson("Invalid", location);
+					continue;
+				}
 
-					// name
-					if (thingInfo.name == null) {
-						invalidInfoJson("No name in", location);
-					}
+				// name
+				if (thingInfo.name == null) {
+					invalidInfoJson("No name in", location);
+				}
 
-					// image
-					if (thingInfo.image == null) {
-						invalidInfoJson("No image in", location);
-					}
+				// image
+				if (thingInfo.image == null) {
+					invalidInfoJson("No image in", location);
+				} else {
 					if (
 						!fs.existsSync(path.resolve(thingPath, thingInfo.image))
 					) {
 						invalidInfoJson("Image not found in", location);
 					}
+				}
 
-					// url
-					if (thingInfo.url == null) {
-						invalidInfoJson("No url in", location);
+				// url
+				if (thingInfo.url == null) {
+					invalidInfoJson("No url in", location);
+				} else {
+					const checkUrl = url => {
+						if (url.startsWith("http") || url.startsWith("tea")) {
+							thingsNotHostedHere++;
+						} else if (
+							!fs.existsSync(path.resolve(thingPath, url))
+						) {
+							invalidInfoJson("Url not found in", location);
+						}
+					};
+
+					if (Array.isArray(thingInfo.url)) {
+						for (const subThing of thingInfo.url) {
+							// name
+							if (subThing.name == null) {
+								invalidInfoJson("No name in", location);
+							}
+
+							// image
+							if (subThing.image == null) {
+								invalidInfoJson("No image in", location);
+							} else {
+								if (
+									!fs.existsSync(
+										path.resolve(thingPath, subThing.image)
+									)
+								) {
+									invalidInfoJson(
+										"Image not found in",
+										location
+									);
+								}
+							}
+
+							// url
+							if (subThing.url == null) {
+								invalidInfoJson("No url in", location);
+							} else {
+								checkUrl(subThing.url);
+							}
+						}
+					} else {
+						checkUrl(thingInfo.url);
 					}
-					if (
-						!(
-							thingInfo.url.startsWith("http") ||
-							thingInfo.url.startsWith("tea")
-						) &&
-						!fs.existsSync(path.resolve(thingPath, thingInfo.url))
-					) {
-						invalidInfoJson("Url not found in", location);
-					}
-				} catch (err) {
-					invalidInfoJson("Invalid", location);
 				}
 
 				subCategoryInfo.things.push(thingInfo);
@@ -175,4 +215,7 @@ if (isInvalid) {
 		JSON.stringify(index)
 	);
 	console.log("Successfully written " + exclaim("index.json"));
+	console.log(
+		exclaim(thingsNotHostedHere + " things") + " are not hosted here"
+	);
 }
