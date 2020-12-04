@@ -1,0 +1,51 @@
+{
+	"name": "Robimo",
+	"image": "robimo.jpg",
+	"url": [
+		{
+			"name": "Robimo: Red",
+			"image": "red.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/Robimo_red/Robimo_red.fst"
+		},
+		{
+			"name": "Robimo: Orange",
+			"image": "orange.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/Robimo_orange/Robimo_orange.fst"
+		},
+		{
+			"name": "Robimo: Yellow",
+			"image": "yellow.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/Robimo_yellow/Robimo_yellow.fst"
+		},
+		{
+			"name": "Robimo: Green",
+			"image": "green.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/Robimo_green/Robimo_green.fst"
+		},
+		{
+			"name": "Robimo: Blue",
+			"image": "blue.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/Robimo_blue/Robimo_blue.fst"
+		},
+		{
+			"name": "Robimo: Purple",
+			"image": "purple.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/Robimo_purple/Robimo_purple.fst"
+		},
+		{
+			"name": "Robimo: Pink",
+			"image": "pink.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/Robimo_pink/Robimo_pink.fst"
+		},
+		{
+			"name": "Robimo: Black",
+			"image": "black.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/Robimo_black/Robimo_black.fst"
+		},
+		{
+			"name": "Robimo: White",
+			"image": "white.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/Robimo_white/Robimo_white.fst"
+		}
+	]
+}

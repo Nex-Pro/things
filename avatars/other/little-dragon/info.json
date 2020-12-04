@@ -1,0 +1,31 @@
+{
+	"name": "Little Dragon",
+	"image": "LittleDragon.jpg",
+	"url": [
+		{
+			"name": "Little Dragon: Frost",
+			"image": "BABY_KAYKAY_FROST01.02.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/BABY_KAYKAY_FROST01.02/BABY_KAYKAY_FROST01.02.fst"
+		},
+		{
+			"name": "Little Dragon: Lemon",
+			"image": "BABY_KAYKAY_LEMON01.02.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/BABY_KAYKAY_LEMON01.02/BABY_KAYKAY_LEMON01.02.fst"
+		},
+		{
+			"name": "Little Dragon: Violet",
+			"image": "BABY_KAYKAY_VIOLET01.02.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/BABY_KAYKAY_VIOLET01.02/BABY_KAYKAY_VIOLET01.02.fst"
+		},
+		{
+			"name": "Little Dragon: Watermelon",
+			"image": "BINKY_DARKWATERMELON.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/BINKY_DARKWATERMELON/BINKY_DARKWATERMELON.fst"
+		},
+		{
+			"name": "Little Dragon: Emire Red",
+			"image": "BINKY_EMPIRERED.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/BINKY_EMPIRERED/BINKY_EMPIRERED.fst"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "Cat in a Dress/Suit",
+	"image": "CatMechDressSuit.jpg",
+	"url": [
+		{
+			"name": "Black Cat in a Mechdress",
+			"image": "CatBlack_MechDress.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/CatBlack_MechDress/CatBlack_MechDress.fst"
+		},
+		{
+			"name": "Brown Cat in a Mechdress",
+			"image": "CatBTab_MechDress.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/CatBTab_MechDress/CatBTab_MechDress.fst"
+		},
+		{
+			"name": "Orange Cat in a Mechdress",
+			"image": "CatOTab_MechDress.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/CatOTab_MechDress/CatOTab_MechDress.fst"
+		},
+		{
+			"name": "White Cat in a Mechdress",
+			"image": "Catwhite_dress.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/Catwhite_dress/Catwhite_dress.fst"
+		},
+		{
+			"name": "White Cat in a Mechsuit",
+			"image": "CatWhite_MechSuit.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/CatWhite_MechSuit/CatWhite_MechSuit.fst"
+		},
+		{
+			"name": "Black Cat in a Mechsuit",
+			"image": "CatBlack_MechSuit.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/CatBlack_MechSuit/CatBlack_MechSuit.fst"
+		}
+	]
+}

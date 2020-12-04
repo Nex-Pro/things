@@ -1,0 +1,46 @@
+{
+	"name": "Kobold Dragon",
+	"image": "kobold.jpg",
+	"url": [
+		{
+			"name": "Kobold Dragon: Red",
+			"image": "kobold_red.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/kobold_red/kobold_red.fst"
+		},
+		{
+			"name": "Kobold Dragon: Green",
+			"image": "kobold_green.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/kobold_green/kobold_green.fst"
+		},
+		{
+			"name": "Kobold Dragon: Light Green",
+			"image": "kobold_light_green.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/kobold_light_green/kobold_light_green.fst"
+		},
+		{
+			"name": "Kobold Dragon: Teal",
+			"image": "kobold_teal.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/kobold_teal/kobold_teal.fst"
+		},
+		{
+			"name": "Kobold Dragon: Blue",
+			"image": "kobold_blue.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/kobold_blue/kobold_blue.fst"
+		},
+		{
+			"name": "Kobold Dragon: Purple",
+			"image": "kobold_purple.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/kobold_purple/kobold_purple.fst"
+		},
+		{
+			"name": "Kobold Dragon: Pink",
+			"image": "kobold_pink.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/kobold_pink/kobold_pink.fst"
+		},
+		{
+			"name": "Kobold Dragon: Grey",
+			"image": "kobold_dark_grey.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/kobold_dark_grey/kobold_dark_grey.fst"
+		}
+	]
+}

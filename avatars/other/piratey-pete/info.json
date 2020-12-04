@@ -1,0 +1,21 @@
+{
+	"name": "Piratey Pete",
+	"image": "pirateyPete_green.jpg",
+	"url": [
+		{
+			"name": "Piratey Pete: Green",
+			"image": "pirateyPete_green.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/pirateyPete_green/pirateyPete_green.fst"
+		},
+		{
+			"name": "Piratey Pete: Blue",
+			"image": "pirateyPete_blue.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/pirateyPete_blue/pirateyPete_blue.fst"
+		},
+		{
+			"name": "Piratey Pete: Red",
+			"image": "pirateyPete_red.jpg",
+			"url": "https://cdn.tivolicloud.com/defaultAvatars/pirateyPete_red/pirateyPete_red.fst"
+		}
+	]
+}
