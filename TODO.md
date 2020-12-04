@@ -2,3 +2,4 @@
 -   Maybe fix https://hifi.maki.cafe/client-scripts/makisPortals/makisPortals.js
 -   Maybe fix http://cdn.snail.rocks/scripting/customTags/tags.js
 -   Compress images with webp in gitlab ci
+-   Generate .br files for compression (gitlab pages supports it)
