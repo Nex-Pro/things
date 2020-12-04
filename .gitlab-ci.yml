@@ -1,0 +1,14 @@
+stages:
+    - deploy
+
+pages:
+    stage: deploy
+    image: node:lts
+    script:
+        - node generate-index.js
+        - mkdir .public
+        - cp -r * .public
+        - mv .public public
+    artifacts:
+        paths:
+            - public
