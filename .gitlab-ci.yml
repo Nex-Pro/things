@@ -3,9 +3,9 @@ stages:
 
 pages:
     stage: deploy
-    image: alpine:latest
+    image: node:lts
     script:
-        - apk add nodejs brotli
+        - apk add brotli
         - node generate-index.js
         - node generate-brotli.js
         - mkdir .public
