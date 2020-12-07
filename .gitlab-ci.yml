@@ -1,16 +1,21 @@
 stages:
     - deploy
 
-pages:
+push to s3:
     stage: deploy
     image: alpine:latest
     script:
-        - apk add nodejs brotli
+        - apk add nodejs brotli rclone
+
         - node generate-index.js
-        - node generate-brotli.js
-        - mkdir .public
-        - cp -r * .public
-        - mv .public public
-    artifacts:
-        paths:
-            - public
+        # - node generate-brotli.js
+
+        - mkdir -p ~/.config/rclone
+        - echo "[s3]" > ~/.config/rclone/rclone.conf
+        - echo "type = s3" >> ~/.config/rclone/rclone.conf
+        - echo "provider = AWS" >> ~/.config/rclone/rclone.conf
+        - echo "env_auth = true" >> ~/.config/rclone/rclone.conf
+        - echo "region = us-east-1" >> ~/.config/rclone/rclone.conf
+        - echo "acl = private" >> ~/.config/rclone/rclone.conf
+
+        - rclone sync -P . s3:tivolicloud-things
