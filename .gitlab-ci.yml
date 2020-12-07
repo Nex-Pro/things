@@ -18,4 +18,4 @@ push to s3:
         - echo "region = us-east-1" >> ~/.config/rclone/rclone.conf
         - echo "acl = private" >> ~/.config/rclone/rclone.conf
 
-        - rclone sync -P . s3:tivolicloud-things
+        - rclone sync -P avatars script entities index.json s3:tivolicloud-things
