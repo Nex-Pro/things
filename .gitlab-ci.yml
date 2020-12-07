@@ -3,9 +3,11 @@ stages:
 
 pages:
     stage: deploy
-    image: node:alpine
+    image: alpine:latest
+    variables:
+        FF_DISABLE_UMASK_FOR_DOCKER_EXECUTOR: "true"
     script:
-        - apk add brotli
+        - apk add nodejs brotli
         - node generate-index.js
         - node generate-brotli.js
         - mkdir .public
