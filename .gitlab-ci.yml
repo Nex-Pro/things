@@ -3,7 +3,7 @@ stages:
 
 pages:
     stage: deploy
-    image: node:lts
+    image: node:alpine
     script:
         - apk add brotli
         - node generate-index.js
