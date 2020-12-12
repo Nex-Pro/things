@@ -213,3 +213,7 @@ jointRotationOffset2 = Thumb0_R = (-0.08729044, -0.7174967, -0.05967737, -0.6884
 jointRotationOffset2 = Thumb1_R = (0.0335211, -0.679344, 0.02892016, -0.7324837)
 jointRotationOffset2 = Thumb2_R = (-0.6446939, 0.3552112, -0.31344, 0.5999591)
 materialMap = {"mat::h_jinx_g_d":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./h_jinx_g_d.png","opacityMap":"./h_jinx_g_d.png","unlit":true}},"mat::h_jinx_g_hair_d":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./h_jinx_g_hair_d.png","opacityMap":"./h_jinx_g_hair_d.png","unlit":true}},"mat::h_jinx_g_ex1_d":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./h_jinx_g_ex1_d.png","opacityMap":"./h_jinx_g_ex1_d.png","unlit":true}}}
+
+bs = JawOpen = vrc.v_aa = 2.5
+bs = EyeBlink_L = vrc.blink_left = 1
+bs = EyeBlink_R = vrc.blink_right = 1
