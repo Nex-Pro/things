@@ -60,25 +60,25 @@ jointMap = flow_ButtRight_00 = Butt_R
 jointMap = flow_ButtRight_01 = Butt_R_end
 
 jointMap = flow_BreastLeft_00 = Breast_L
-jointMap = flow_BreastLeft_00 = Breast_L_end
+jointMap = flow_BreastLeft_01 = Breast_L_end
 jointMap = flow_BreastRight_00 = Breast_R
-jointMap = flow_BreastRight_00 = Breast_R_end
+jointMap = flow_BreastRight_01 = Breast_R_end
 
 jointMap = flow_FrontHair_00 = FrontHair1
 jointMap = flow_FrontHair_01 = FrontHair2
 jointMap = flow_FrontHair_02 = FrontHair3
 jointMap = flow_FrontHair_03 = FrontHair3_end
 
+jointMap = flow_LeftFrontHair_00 = FrontHair1_L
 jointMap = flow_LeftFrontHair_01 = FrontHair2_L
 jointMap = flow_LeftFrontHair_02 = FrontHair3_L
 jointMap = flow_LeftFrontHair_03 = FrontHair3_L_end
-jointMap = flow_LeftFrontHair_00 = FrontHair1_L
 
 
+jointMap = flow_RightFrontHair_00 = FrontHair1_R
 jointMap = flow_RightFrontHair_01 = FrontHair2_R
 jointMap = flow_RightFrontHair_02 = FrontHair3_R
 jointMap = flow_RightFrontHair_03 = FrontHair3_R_end
-jointMap = flow_RightFrontHair_00 = FrontHair1_R
 
 jointMap = flow_Hair_00 = Hair1
 jointMap = flow_Hair_01 = Hair2
