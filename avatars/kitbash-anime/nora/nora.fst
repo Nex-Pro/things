@@ -53,6 +53,50 @@ jointMap = RightHandRing3 = RingFinger3_R
 jointMap = RightHandThumb1 = Thumb0_R
 jointMap = RightHandThumb2 = Thumb1_R
 jointMap = RightHandThumb3 = Thumb2_R
+
+jointMap = flow_ButtLeft_00 = Butt_L
+jointMap = flow_ButtLeft_01 = Butt_L_end
+jointMap = flow_ButtRight_00 = Butt_R
+jointMap = flow_ButtRight_01 = Butt_R_end
+
+jointMap = flow_BreastLeft_00 = Breast_L
+jointMap = flow_BreastLeft_00 = Breast_L_end
+jointMap = flow_BreastRight_00 = Breast_R
+jointMap = flow_BreastRight_00 = Breast_R_end
+
+jointMap = flow_FrontHair_00 = FrontHair1
+jointMap = flow_FrontHair_01 = FrontHair2
+jointMap = flow_FrontHair_02 = FrontHair3
+jointMap = flow_FrontHair_03 = FrontHair3_end
+
+jointMap = flow_LeftFrontHair_01 = FrontHair2_L
+jointMap = flow_LeftFrontHair_02 = FrontHair3_L
+jointMap = flow_LeftFrontHair_03 = FrontHair3_L_end
+jointMap = flow_LeftFrontHair_00 = FrontHair1_L
+
+
+jointMap = flow_RightFrontHair_01 = FrontHair2_R
+jointMap = flow_RightFrontHair_02 = FrontHair3_R
+jointMap = flow_RightFrontHair_03 = FrontHair3_R_end
+jointMap = flow_RightFrontHair_00 = FrontHair1_R
+
+jointMap = flow_Hair_00 = Hair1
+jointMap = flow_Hair_01 = Hair2
+jointMap = flow_Hair_02 = Hair3
+jointMap = flow_Hair_03 = Hair4
+jointMap = flow_Hair_04 = Hair5
+jointMap = flow_Hair_05 = Hair6
+jointMap = flow_Hair_06 = Hair6_end
+
+flowPhysicsData = {"BreastLeft":{"active":true,"damping":1,"delta":0.55,"gravity":0.021,"inertia":0.1,"radius":0.06,"stiffness":0}}
+flowPhysicsData = {"BreastRight":{"active":false,"damping":1,"delta":0.55,"gravity":0.024,"inertia":0,"radius":0.06,"stiffness":0}}
+flowPhysicsData = {"ButtLeft":{"active":true,"damping":0.85,"delta":0.55,"gravity":0,"inertia":0.85,"radius":0.08,"stiffness":0}}
+flowPhysicsData = {"ButtRight":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.07,"stiffness":0}}
+flowPhysicsData = {"FrontHair":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0}}
+flowPhysicsData = {"Hair":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.05,"radius":0.06,"stiffness":0.05}}
+flowPhysicsData = {"LeftFrontHair":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0}}
+flowPhysicsData = {"RightFrontHair":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0}}
+
 jointRotationOffset2 = Christmas Avatar(Clone) = (0, 0, 0, -1)
 jointRotationOffset2 = Armature = (-0.7071068, 0, 0, -0.7071067)
 jointRotationOffset2 = Hips = (-8.398931E-08, -1.57371E-07, 5.112975E-06, -1)
