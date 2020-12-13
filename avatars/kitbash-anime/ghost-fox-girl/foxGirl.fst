@@ -343,14 +343,13 @@ jointRotationOffset2 = UpperButtTail2_R = (-0.534675, 0.1341473, 0.1341542, -0.8
 jointRotationOffset2 = UpperButtTail3_R = (-0.5678111, 0.08939067, 0.08939774, -0.8133931)
 jointRotationOffset2 = UpperButtTail4_R = (-0.5421702, 0.1088934, 0.1089004, -0.8260356)
 
-FSTAdd these lines to your .fst file
-flowPhysicsData = {"ButtTailLowerLeft":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.018,"inertia":0.8,"radius":0.01,"stiffness":0.55}}
-flowPhysicsData = {"ButtTailLowerRight":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.01,"inertia":0.8,"radius":0.01,"stiffness":0.45}}
-flowPhysicsData = {"ButtTailMiddleLeft":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.018,"inertia":0.8,"radius":0.01,"stiffness":0.55}}
-flowPhysicsData = {"ButtTailMiddleRight":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.019,"inertia":0.8,"radius":0.01,"stiffness":0.7}}
-flowPhysicsData = {"ButtTailUpperCenter":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.021,"inertia":0.8,"radius":0.01,"stiffness":0.45}}
-flowPhysicsData = {"ButtTailUpperLeft":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0.6}}
-flowPhysicsData = {"ButtTailUpperRight":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0.5}}
+flowPhysicsData = {"ButtTailLowerLeft":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.018,"inertia":0.8,"radius":0.01,"stiffness":0.55}}
+flowPhysicsData = {"ButtTailLowerRight":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.01,"inertia":0.8,"radius":0.01,"stiffness":0.45}}
+flowPhysicsData = {"ButtTailMiddleLeft":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.018,"inertia":0.8,"radius":0.01,"stiffness":0.55}}
+flowPhysicsData = {"ButtTailMiddleRight":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.019,"inertia":0.8,"radius":0.01,"stiffness":0.7}}
+flowPhysicsData = {"ButtTailUpperCenter":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.021,"inertia":0.8,"radius":0.01,"stiffness":0.45}}
+flowPhysicsData = {"ButtTailUpperLeft":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0.6}}
+flowPhysicsData = {"ButtTailUpperRight":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0.5}}
 flowPhysicsData = {"breast":{"active":true,"damping":0.65,"delta":0.45,"gravity":0.05,"inertia":0.8,"radius":0.01,"stiffness":0}}
 flowPhysicsData = {"earLeft":{"active":true,"damping":0.85,"delta":0.55,"gravity":0.044,"inertia":0.8,"radius":0.01,"stiffness":0.95}}
 flowPhysicsData = {"earRight":{"active":true,"damping":0.85,"delta":0.55,"gravity":0.048,"inertia":0.8,"radius":0.01,"stiffness":0.85}}
