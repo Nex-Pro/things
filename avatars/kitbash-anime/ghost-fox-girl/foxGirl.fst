@@ -54,53 +54,39 @@ jointMap = RightHandThumb1 = Thumb0_R
 jointMap = RightHandThumb2 = Thumb1_R
 jointMap = RightHandThumb3 = Thumb2_R
 
-jointMap = flow_ButtTailLowerLeft_00 = LowerButtTail1_L
-jointMap = flow_ButtTailLowerLeft_01 = LowerButtTail2_L
-jointMap = flow_ButtTailLowerLeft_02 = LowerButtTail3_L
-jointMap = flow_ButtTailLowerLeft_03 = LowerButtTail4_L
+L
+jointMap = flow_ButtTailLowerLeft_00 = LowerButtTail3_L
+jointMap = flow_ButtTailLowerLeft_01 = LowerButtTail4_L
 
-jointMap = flow_ButtTailLowerRight_00 = LowerButtTail1_R
-jointMap = flow_ButtTailLowerRight_01 = LowerButtTail2_R
-jointMap = flow_ButtTailLowerRight_02 = LowerButtTail3_R
-jointMap = flow_ButtTailLowerRight_03 = LowerButtTail4_R
 
-jointMap = flow_ButtTailMiddleLeft_00 = MiddleButtTail1_L
-jointMap = flow_ButtTailMiddleLeft_01 = MiddleButtTail2_L
-jointMap = flow_ButtTailMiddleLeft_02 = MiddleButtTail3_L
-jointMap = flow_ButtTailMiddleLeft_03 = MiddleButtTail4_L
+jointMap = flow_ButtTailLowerRight_00 = LowerButtTail3_R
+jointMap = flow_ButtTailLowerRight_01 = LowerButtTail4_R
 
-jointMap = flow_ButtTailMiddleRight_00 = MiddleButtTail1_R
-jointMap = flow_ButtTailMiddleRight_01 = MiddleButtTail2_R
+
+jointMap = flow_ButtTailMiddleLeft_00 = MiddleButtTail3_L
+jointMap = flow_ButtTailMiddleLeft_01 = MiddleButtTail4_L
+
 jointMap = flow_ButtTailMiddleRight_02 = MiddleButtTail3_R
 jointMap = flow_ButtTailMiddleRight_03 = MiddleButtTail4_R
 
-jointMap = flow_ButtTailMiddleLower_00 = MiddleLowerButtTail1_R
-jointMap = flow_ButtTailMiddleLower_01 = MiddleLowerButtTail2_R
+
 jointMap = flow_ButtTailMiddleLower_02 = MiddleLowerButtTail3_R
 jointMap = flow_ButtTailMiddleLower_03 = MiddleLowerButtTail4_R
 
-jointMap = flow_ButtTailMiddleCenter_00 = MiddleMiddleButtTail1_R
-jointMap = flow_ButtTailMiddleCenter_01 = MiddleMiddleButtTail2_R
+
 jointMap = flow_ButtTailMiddleCenter_02 = MiddleMiddleButtTail3_R
 jointMap = flow_ButtTailMiddleCenter_03 = MiddleMiddleButtTail4_R
 
-jointMap = flow_ButtTailMiddleUpper_00 = MiddleUpperButtTail1_R
-jointMap = flow_ButtTailMiddleUpper_01 = MiddleUpperButtTail2_R
+
 jointMap = flow_ButtTailMiddleUpper_02 = MiddleUpperButtTail3_R
 jointMap = flow_ButtTailMiddleUpper_03 = MiddleUpperButtTail4_R
 
-jointMap = flow_ButtTailUpperLeft_00 = UpperButtTail1_L
-jointMap = flow_ButtTailUpperLeft_01 = UpperButtTail2_L
 jointMap = flow_ButtTailUpperLeft_02 = UpperButtTail3_L
 jointMap = flow_ButtTailUpperLeft_03 = UpperButtTail4_L
 
-jointMap = flow_ButtTailUpperRight_00 = UpperButtTail1_R
-jointMap = flow_ButtTailUpperRight_01 = UpperButtTail2_R
 jointMap = flow_ButtTailUpperRight_02 = UpperButtTail3_R
 jointMap = flow_ButtTailUpperRight_03 = UpperButtTail4_R
 
-jointMap = flow_ButtTailUpperCenter_00 = MiddleUpperButtTail1
-jointMap = flow_ButtTailUpperCenter_01 = MiddleUpperButtTail2
 jointMap = flow_ButtTailUpperCenter_02 = MiddleUpperButtTail3
 jointMap = flow_ButtTailUpperCenter_03 = MiddleUpperButtTail4
 
@@ -376,6 +362,7 @@ flowCollisionsData = {"Spine2":{"offset":{"x":0,"y":0,"z":0},"radius":0.11,"type
 
 
 materialMap = {"mat::underwear":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Black details.png","opacityMap":"./Black details.png","unlit":true,"cullFaceMode":"CULL_NONE"}},"mat::Nail":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Texture.png","opacityMap":"./Texture.png","unlit":true}},"mat::body":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Texture.png","opacityMap":"./Texture.png","unlit":true}},"mat::Head":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Face.png","opacityMap":"./Face.png","unlit":true,"opacityMapMode":"OPACITY_MAP_OPAQUE"}},"mat::Light":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Face.png","opacityMap":"./Face.jpg","unlit":true,"opacityMapMode":"OPACITY_MAP_OPAQUE"}},"mat::first":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Face.png","opacityMap":"./Face.png","unlit":true,"opacityMapMode":"OPACITY_MAP_OPAQUE"}},"mat::Bow2":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Details.png","opacityMap":"./Details.png","unlit":true}},"mat::New":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Details.png","opacityMap":"./Details.png","unlit":true}},"mat::dress2":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Dress.png","opacityMap":"./Dress.png","unlit":true}},"mat::Buttons":{"materialVersion":1,"materials":{"albedo":[0,0,0],"unlit":true}},"mat::Bow":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Bunny shirt.png","opacityMap":"./Bunny shirt.png","unlit":true,"cullFaceMode":"CULL_NONE"}},"mat::Sleeve frill":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Bunny shirt.png","opacityMap":"./Bunny shirt.png","unlit":true,"cullFaceMode":"CULL_NONE"}},"mat::Haier 03":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Hair.png","opacityMap":"./Hair.png","unlit":true}},"mat::Fox ears2":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./Fox ears.png","opacityMap":"./Fox ears.png","unlit":true}}}
+
 bs = JawOpen = vrc.v_aa = 1.75
 bs = EyeBlink_L = vrc.blink_left = 1
 bs = EyeBlink_R = vrc.blink_right = 1
