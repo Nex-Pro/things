@@ -54,41 +54,17 @@ jointMap = RightHandThumb1 = Thumb0_R
 jointMap = RightHandThumb2 = Thumb1_R
 jointMap = RightHandThumb3 = Thumb2_R
 
-L
-jointMap = flow_ButtTailLowerLeft_00 = LowerButtTail3_L
-jointMap = flow_ButtTailLowerLeft_01 = LowerButtTail4_L
 
-
-jointMap = flow_ButtTailLowerRight_00 = LowerButtTail3_R
-jointMap = flow_ButtTailLowerRight_01 = LowerButtTail4_R
-
-
-jointMap = flow_ButtTailMiddleLeft_00 = MiddleButtTail3_L
-jointMap = flow_ButtTailMiddleLeft_01 = MiddleButtTail4_L
-
-jointMap = flow_ButtTailMiddleRight_02 = MiddleButtTail3_R
-jointMap = flow_ButtTailMiddleRight_03 = MiddleButtTail4_R
-
-
-jointMap = flow_ButtTailMiddleLower_02 = MiddleLowerButtTail3_R
-jointMap = flow_ButtTailMiddleLower_03 = MiddleLowerButtTail4_R
-
-
-jointMap = flow_ButtTailMiddleCenter_02 = MiddleMiddleButtTail3_R
-jointMap = flow_ButtTailMiddleCenter_03 = MiddleMiddleButtTail4_R
-
-
-jointMap = flow_ButtTailMiddleUpper_02 = MiddleUpperButtTail3_R
-jointMap = flow_ButtTailMiddleUpper_03 = MiddleUpperButtTail4_R
-
-jointMap = flow_ButtTailUpperLeft_02 = UpperButtTail3_L
-jointMap = flow_ButtTailUpperLeft_03 = UpperButtTail4_L
-
-jointMap = flow_ButtTailUpperRight_02 = UpperButtTail3_R
-jointMap = flow_ButtTailUpperRight_03 = UpperButtTail4_R
-
-jointMap = flow_ButtTailUpperCenter_02 = MiddleUpperButtTail3
-jointMap = flow_ButtTailUpperCenter_03 = MiddleUpperButtTail4
+jointMap = flow_ButtTailLowerLeft_00 = LowerButtTail4_L
+jointMap = flow_ButtTailLowerRight_00 = LowerButtTail4_R
+jointMap = flow_ButtTailMiddleLeft_00 = MiddleButtTail4_L
+jointMap = flow_ButtTailMiddleRight_00 = MiddleButtTail4_R
+jointMap = flow_ButtTailMiddleLower_00 = MiddleLowerButtTail4
+jointMap = flow_ButtTailMiddleCenter_00 = MiddleMiddleButtTail4
+jointMap = flow_ButtTailMiddleUpper_00 = MiddleUpperButtTail4
+jointMap = flow_ButtTailUpperLeft_00 = UpperButtTail4_L
+jointMap = flow_ButtTailUpperRight_00 = UpperButtTail4_R
+jointMap = flow_ButtTailUpperCenter_00 = MiddleUpperButtTail4
 
 jointMap = flow_skirt0_00 = Skirt_0_0
 jointMap = flow_skirt0_01 = Skirt_1_0
@@ -328,14 +304,16 @@ jointRotationOffset2 = UpperButtTail1_R = (-0.5614954, 0.1171033, 0.1171103, -0.
 jointRotationOffset2 = UpperButtTail2_R = (-0.534675, 0.1341473, 0.1341542, -0.8234865)
 jointRotationOffset2 = UpperButtTail3_R = (-0.5678111, 0.08939067, 0.08939774, -0.8133931)
 jointRotationOffset2 = UpperButtTail4_R = (-0.5421702, 0.1088934, 0.1089004, -0.8260356)
-
-flowPhysicsData = {"ButtTailLowerLeft":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.018,"inertia":0.8,"radius":0.01,"stiffness":0.55}}
-flowPhysicsData = {"ButtTailLowerRight":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.01,"inertia":0.8,"radius":0.01,"stiffness":0.45}}
-flowPhysicsData = {"ButtTailMiddleLeft":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.018,"inertia":0.8,"radius":0.01,"stiffness":0.55}}
-flowPhysicsData = {"ButtTailMiddleRight":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.019,"inertia":0.8,"radius":0.01,"stiffness":0.7}}
-flowPhysicsData = {"ButtTailUpperCenter":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.021,"inertia":0.8,"radius":0.01,"stiffness":0.45}}
-flowPhysicsData = {"ButtTailUpperLeft":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0.6}}
-flowPhysicsData = {"ButtTailUpperRight":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0.5}}
+flowPhysicsData = {"ButtTailLowerLeft":{"active":true,"damping":0.55,"delta":0.3,"gravity":-0.001,"inertia":0,"radius":0.09,"stiffness":0.3}}
+flowPhysicsData = {"ButtTailLowerRight":{"active":true,"damping":0.55,"delta":0.25,"gravity":-0.001,"inertia":0,"radius":0.09,"stiffness":0.15}}
+flowPhysicsData = {"ButtTailMiddleCenter":{"active":true,"damping":0.45,"delta":0.45,"gravity":-0.001,"inertia":0,"radius":0.1,"stiffness":0.3}}
+flowPhysicsData = {"ButtTailMiddleLeft":{"active":true,"damping":0.55,"delta":0.25,"gravity":-0.001,"inertia":0,"radius":0.09,"stiffness":0.2}}
+flowPhysicsData = {"ButtTailMiddleLower":{"active":true,"damping":0.5,"delta":0.25,"gravity":-0.001,"inertia":0,"radius":0.05,"stiffness":0.2}}
+flowPhysicsData = {"ButtTailMiddleRight":{"active":true,"damping":0.45,"delta":0.2,"gravity":-0.001,"inertia":0.1,"radius":0.1,"stiffness":0.25}}
+flowPhysicsData = {"ButtTailMiddleUpper":{"active":true,"damping":0.45,"delta":0.35,"gravity":0,"inertia":0.1,"radius":0.1,"stiffness":0.25}}
+flowPhysicsData = {"ButtTailUpperCenter":{"active":true,"damping":0.4,"delta":0.3,"gravity":0,"inertia":0,"radius":0.1,"stiffness":0.15}}
+flowPhysicsData = {"ButtTailUpperLeft":{"active":true,"damping":0,"delta":0.45,"gravity":0,"inertia":0,"radius":0.01,"stiffness":0.45}}
+flowPhysicsData = {"ButtTailUpperRight":{"active":true,"damping":0.05,"delta":0.35,"gravity":0,"inertia":0,"radius":0.01,"stiffness":0.25}}
 flowPhysicsData = {"breast":{"active":true,"damping":0.65,"delta":0.45,"gravity":0.05,"inertia":0.8,"radius":0.01,"stiffness":0}}
 flowPhysicsData = {"earLeft":{"active":true,"damping":0.85,"delta":0.55,"gravity":0.044,"inertia":0.8,"radius":0.01,"stiffness":0.95}}
 flowPhysicsData = {"earRight":{"active":true,"damping":0.85,"delta":0.55,"gravity":0.048,"inertia":0.8,"radius":0.01,"stiffness":0.85}}
