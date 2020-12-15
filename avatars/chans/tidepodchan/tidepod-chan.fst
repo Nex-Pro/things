@@ -177,7 +177,7 @@ jointRotationOffset2 = Breast_R = (0.1172638, -0.6356611, -0.7503475, 0.1384303)
 jointRotationOffset2 = Root_Physical_L = (0.009774939, 4.414689E-07, -6.937026E-06, -0.9999523)
 jointRotationOffset2 = Physical_L = (0.9044454, 0.2756275, 0.3253638, 0.0121019)
 jointRotationOffset2 = Physical_R = (0.9044413, -0.2756397, -0.3253649, 0.01210596)
-materialMap = {"mat::AtlasBakedMat51589264":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./GeneratedAtlasBake8283614974.png","opacityMap":"./GeneratedAtlasBake8283614974.png","unlit":true, "opacityMapMode":"OPACITY_MAP_OPAQUE"}}}
+materialMap = {"mat::AtlasBakedMat51589264":{"materialVersion":1,"materials":{"albedo":[1,1,1],"albedoMap":"./GeneratedAtlasBake8283614974.png","opacityMap":"./GeneratedAtlasBake8283614974.png","unlit":true, "opacityMapMode":"OPACITY_MAP_OPAQUE","cullFaceMode":"CULL_NONE"}}}
 
 bs = JawOpen = vrc.v_aa = 1.5
 bs = EyeBlink_L = vrc.blink_left = 1
