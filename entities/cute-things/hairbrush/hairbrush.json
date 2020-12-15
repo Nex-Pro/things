@@ -8,9 +8,9 @@
 			"lifetime": 3600,
 			"collisionless": true,
 			"dimensions": {
-				"x": 0.1674,
-				"y": 0.0281,
-				"z": 0.0436
+				"x": 0.2511,
+				"y": 0.0422,
+				"z": 0.0654
 			},
 			"grab": { "grabbable": true, "grabFollowsController": false }
 		}
