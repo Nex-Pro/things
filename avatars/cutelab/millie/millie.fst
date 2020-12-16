@@ -62,20 +62,15 @@ jointMap = flow_hairLeft_01 = Hair_Left2
 jointMap = flow_hairRight_00 = Hair_Right1
 jointMap = flow_hairRight_01 = Hair_Right2
 
-jointMap = flow_LashLeft_00 = Lash1_L
-jointMap = flow_LashLeft_01 = Lash2_L
-
-jointMap = flow_LashRight_00 = Lash1_R
-jointMap = flow_LashRight_01 = Lash2_R
-
-flowPhysicsData = {"LashLeft":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0}}
-flowPhysicsData = {"LashRight":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0}}
+flowPhysicsData = {"LashLeft":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0.85}}
+flowPhysicsData = {"LashRight":{"active":false,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0}}
 flowPhysicsData = {"hairLeft":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0}}
 flowPhysicsData = {"hairRight":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0}}
 flowPhysicsData = {"tail":{"active":true,"damping":0.85,"delta":0.55,"gravity":-0.0096,"inertia":0.8,"radius":0.01,"stiffness":0}}
 flowCollisionsData = {"LeftArm":{"offset":{"x":0,"y":0.02,"z":0},"radius":0.05,"type":"sphere"}}
 flowCollisionsData = {"RightArm":{"offset":{"x":0,"y":0.02,"z":0},"radius":0.05,"type":"sphere"}}
 flowCollisionsData = {"Spine2":{"offset":{"x":0,"y":0.2,"z":0},"radius":0.14,"type":"sphere"}}
+flowCollisionsData = {"Neck":{"type":"sphere","radius":0.22,"offset":{"x":0,"y":0.3,"z":0}}}
 
 jointRotationOffset2 = CM_millie(Clone) = (0, 0, 0, -1)
 jointRotationOffset2 = Armature = (-0.7071068, 0, 0, -0.7071067)
