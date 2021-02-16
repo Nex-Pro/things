@@ -1,0 +1,59 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{41db1f45-f91b-44fd-89b7-1f3c325dac6f}",
+    "type": "Model",
+    "lastEdited": 1613478651736549,
+    "name": "SKIMI - Shop One",
+    "dimensions": {
+        "x": 10.351654052734375,
+        "y": 6.197813987731934,
+        "z": 9.33378791809082
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613473639403484,
+    "lastEditedBy": "{c7d77c0f-59f5-49ce-b522-89326b7364d4}",
+    "queryAACube": {
+        "x": -7.627077579498291,
+        "y": -7.627077579498291,
+        "z": -7.627077579498291,
+        "scale": 15.254155158996582
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "static-mesh",
+    "modelURL": "tea://skimi/things_app/shop_one/SKIMI - Shop One.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{193678fd-ef6a-4609-baee-6438e3cee66a}",
+  "Version": 132
+}

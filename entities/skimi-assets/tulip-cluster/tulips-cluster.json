@@ -1,0 +1,58 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{80274b0d-0e3b-44e7-858d-e5f5da184fa8}",
+    "type": "Model",
+    "lastEdited": 1613479139488226,
+    "name": "SKIMI - Tulips Cluster",
+    "dimensions": {
+        "x": 0.9927867650985718,
+        "y": 0.5801088213920593,
+        "z": 0.8835803270339966
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613479015687004,
+    "lastEditedBy": "{c7d77c0f-59f5-49ce-b522-89326b7364d4}",
+    "queryAACube": {
+        "x": -0.7250630855560303,
+        "y": -0.7250630855560303,
+        "z": -0.7250630855560303,
+        "scale": 1.4501261711120605
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "modelURL": "tea://skimi/things_app/tulips_cluster/SKIMI - Tulips Cluster.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{26cef5e7-8dca-4d31-b998-7ccae267da31}",
+  "Version": 132
+}
