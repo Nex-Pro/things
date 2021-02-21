@@ -1,0 +1,231 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{21e80003-ee00-4dba-b5d7-034ddcc763f4}",
+    "type": "Model",
+    "lastEdited": 1613738767714246,
+    "name": "SKIMI - Stylized Medium Grass 4",
+    "position": {
+        "x": 0,
+        "y": 0.15885066986083984,
+        "z": 0
+    },
+    "dimensions": {
+        "x": 2.383146286010742,
+        "y": 1.4037327766418457,
+        "z": 2.941408157348633
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1612968928215040,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": -2.018770456314087,
+        "y": -1.859919786453247,
+        "z": -2.018770456314087,
+        "scale": 4.037540912628174
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "modelURL": "tea://skimi/things_app/stylized-medium-grass/SKIMI-Stylized-Medium-Grass-4.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{64ab3e93-4a6e-4863-8099-82a303473254}",
+    "type": "Model",
+    "lastEdited": 1613738697800683,
+    "name": "SKIMI - Stylized Medium Grass 1",
+    "position": {
+        "x": 3.7226810455322266,
+        "y": 0,
+        "z": 2.5890655517578125
+    },
+    "dimensions": {
+        "x": 2.3825130462646484,
+        "y": 1.1267083883285522,
+        "z": 2.9402236938476562
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613735985130773,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": 1.7484245300292969,
+        "y": -1.9742565155029297,
+        "z": 0.6148090362548828,
+        "scale": 3.9485130310058594
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "modelURL": "tea://skimi/things_app/stylized-medium-grass/SKIMI-Stylized-Medium-Grass-1.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{e82791b2-c79c-400a-a317-444156f3d954}",
+    "type": "Model",
+    "lastEdited": 1613738767714076,
+    "name": "SKIMI - Stylized Medium Grass 3",
+    "position": {
+        "x": 2.3310070037841797,
+        "y": 0.041690826416015625,
+        "z": 0.4417266845703125
+    },
+    "dimensions": {
+        "x": 2.3825130462646484,
+        "y": 1.0791938304901123,
+        "z": 2.9402236938476562
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613736042690125,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": 0.36339783668518066,
+        "y": -1.9259183406829834,
+        "z": -1.5258824825286865,
+        "scale": 3.935218334197998
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "modelURL": "tea://skimi/things_app/stylized-medium-grass/SKIMI-Stylized-Medium-Grass-3.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{72613232-953f-4d5f-9c1f-a4f86dde001a}",
+    "type": "Model",
+    "lastEdited": 1613738754885852,
+    "name": "SKIMI - Stylized Medium Grass 2",
+    "position": {
+        "x": 1.5376834869384766,
+        "y": 0.14376258850097656,
+        "z": 1.8148422241210938
+    },
+    "dimensions": {
+        "x": 2.3825130462646484,
+        "y": 1.4122527837753296,
+        "z": 2.9402236938476562
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613736016251603,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": -0.48195409774780273,
+        "y": -1.8758749961853027,
+        "z": -0.20479536056518555,
+        "scale": 4.039275169372559
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "modelURL": "tea://skimi/things_app/stylized-medium-grass/SKIMI-Stylized-Medium-Grass-2.gltf?1613738754885",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{8aaed26e-7982-4c77-a8d2-efb9c87e8afa}",
+  "Version": 132
+}

@@ -1,0 +1,179 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{cfbeafb1-745a-44e0-b843-7cf9f401301f}",
+    "type": "Model",
+    "lastEdited": 1613735921333969,
+    "name": "SKIMI - Srylized Animated Tall Grass 2",
+    "position": {
+        "x": 2.166166305541992,
+        "y": 0.18998432159423828,
+        "z": 0.61895751953125
+    },
+    "dimensions": {
+        "x": 2.324746608734131,
+        "y": 2.6185033321380615,
+        "z": 2.650866985321045
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613735773362849,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": -0.029744625091552734,
+        "y": -2.0059266090393066,
+        "z": -1.576953411102295,
+        "scale": 4.39182186126709
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "modelURL": "tea://skimi/things_app/animated-stylized-tall-grass/SKIMI-Animated-Stylized-Tall-Grass-2.fbx",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "url": "tea://skimi/things_app/animated-stylized-tall-grass/SKIMI-Animated-Stylized-Tall-Grass-2.fbx",
+        "allowTranslation": false,
+        "currentFrame": 5647.71142578125,
+        "running": true
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{107e2cd9-843a-4c67-980f-39eb87a8c453}",
+    "type": "Model",
+    "lastEdited": 1613735914851616,
+    "name": "SKIMI - Srylized Animated Tall Grass 3",
+    "dimensions": {
+        "x": 2.324746608734131,
+        "y": 2.6185033321380615,
+        "z": 2.650866985321045
+    },
+    "rotation": {
+        "x": -0.0000762939453125,
+        "y": 0.09581136703491211,
+        "z": -0.0000152587890625,
+        "w": 0.9953917264938354
+    },
+    "created": 1613735739770620,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": -2.195910930633545,
+        "y": -2.195910930633545,
+        "z": -2.195910930633545,
+        "scale": 4.39182186126709
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "modelURL": "tea://skimi/things_app/animated-stylized-tall-grass/SKIMI-Animated-Stylized-Tall-Grass-1.fbx",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "url": "tea://skimi/things_app/animated-stylized-tall-grass/SKIMI-Animated-Stylized-Tall-Grass-1.fbx",
+        "allowTranslation": false,
+        "currentFrame": 6606.23974609375,
+        "running": true
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{8b7d7c77-7bc6-4ef6-8cd6-b4110a7d63e3}",
+    "type": "Model",
+    "lastEdited": 1613735848670282,
+    "name": "SKIMI - Srylized Animated Tall Grass 1",
+    "position": {
+        "x": 4.462379455566406,
+        "y": 0.225677490234375,
+        "z": 1.3363494873046875
+    },
+    "dimensions": {
+        "x": 2.324746608734131,
+        "y": 2.6185033321380615,
+        "z": 2.650866985321045
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613735796260487,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": 2.2664685249328613,
+        "y": -1.97023344039917,
+        "z": -0.8595614433288574,
+        "scale": 4.39182186126709
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "modelURL": "tea://skimi/things_app/animated-stylized-tall-grass/SKIMI-Animated-Stylized-Tall-Grass-3.fbx",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "url": "tea://skimi/things_app/animated-stylized-tall-grass/SKIMI-Animated-Stylized-Tall-Grass-3.fbx",
+        "allowTranslation": false,
+        "currentFrame": 4960.7783203125,
+        "running": true
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{be83acb9-722c-4c77-9d96-6be99816b754}",
+  "Version": 132
+}

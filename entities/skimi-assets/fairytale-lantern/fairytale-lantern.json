@@ -1,0 +1,229 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{c4cacbca-9773-4002-a829-a764a462813a}",
+    "type": "ParticleEffect",
+    "lastEdited": 1613677503818844,
+    "parentID": "{559d7f31-aedb-4a41-b356-b8625425a57b}",
+    "name": "SKIMI - Farytale Lantern Flame",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.0009489059448242188,
+        "y": -0.15729236602783203,
+        "z": 0.0004697204567492008
+    },
+    "dimensions": {
+        "x": 0.08829399198293686,
+        "y": 0.08829399198293686,
+        "z": 0.08829399198293686
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": 0.45543599128723145,
+        "z": -0.0001068115234375,
+        "w": 0.8902571201324463
+    },
+    "created": 1613677503817189,
+    "lastEditedBy": "{66952dee-d07d-41ad-ba50-7db28380f4aa}",
+    "queryAACube": {
+        "x": -21.690683364868164,
+        "y": 10.736190795898438,
+        "z": 78.72549438476562,
+        "scale": 0.15292967855930328
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "itemName": "Magic forest lantern",
+    "itemDescription": "A rustic lantern, not onyl for a safe trip in the magic forest.",
+    "itemCategories": "Light systems",
+    "itemArtist": "Skimi",
+    "editionNumber": 8,
+    "staticCertificateVersion": 2,
+    "shapeType": "ellipsoid",
+    "color": {
+        "red": 255,
+        "green": 136,
+        "blue": 0
+    },
+    "alpha": 0.25,
+    "textures": "https://files.tivolicloud.com/skimi/things_app/particles/SKIMI_patio_3candles_flame.png",
+    "maxParticles": 10,
+    "lifespan": 0.019999999552965164,
+    "emitRate": 400,
+    "emitSpeed": 0.10000000149011612,
+    "speedSpread": 0.05000000074505806,
+    "emitOrientation": {
+        "x": -0.7075492143630981,
+        "y": -0.000015258867279044352,
+        "z": -0.000015258867279044352,
+        "w": 0.7066641449928284
+    },
+    "emitAcceleration": {
+        "x": -0.5,
+        "y": 2.5,
+        "z": -0.5
+    },
+    "accelerationSpread": {
+        "x": 0.5,
+        "y": 1,
+        "z": 0.5
+    },
+    "particleRadius": 0.019999999552965164,
+    "radiusSpread": 0.019999999552965164,
+    "radiusStart": 0,
+    "radiusFinish": 0.019999999552965164,
+    "colorStart": {
+        "red": 255,
+        "green": 242,
+        "blue": 0
+    },
+    "colorFinish": {
+        "red": 255,
+        "green": 0,
+        "blue": 0
+    },
+    "alphaStart": 0,
+    "alphaFinish": 1,
+    "spinStart": null,
+    "spinFinish": null,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{ccdfe2da-5609-4e01-ad5e-85b9295f10b2}",
+    "type": "Light",
+    "lastEdited": 1613677593741873,
+    "parentID": "{559d7f31-aedb-4a41-b356-b8625425a57b}",
+    "name": "SKIMI - Farytale Lantern Light",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.0044460296630859375,
+        "y": 0.16597557067871094,
+        "z": -0.0041549354791641235
+    },
+    "dimensions": {
+        "x": 3.695305109024048,
+        "y": 3.695305109024048,
+        "z": 3.695305109024048
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": -0.0173799991607666,
+        "z": -0.0000457763671875,
+        "w": 0.999847412109375
+    },
+    "created": 1613677503817309,
+    "lastEditedBy": "{66952dee-d07d-41ad-ba50-7db28380f4aa}",
+    "queryAACube": {
+        "x": -24.813186645507812,
+        "y": 7.935694694519043,
+        "z": 75.59602355957031,
+        "scale": 6.400455951690674
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "script": "https://files.tivolicloud.com/skimi/scripts/light_flickering.js",
+    "scriptTimestamp": 1538602696704,
+    "itemName": "Magic forest lantern",
+    "itemDescription": "A rustic lantern, not onyl for a safe trip in the magic forest.",
+    "itemCategories": "Light systems",
+    "itemArtist": "Skimi",
+    "staticCertificateVersion": 2,
+    "color": {
+        "red": 247,
+        "green": 131,
+        "blue": 42
+    },
+    "intensity": 31.465778350830078,
+    "cutoff": 90,
+    "falloffRadius": 0.20000000298023224,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{559d7f31-aedb-4a41-b356-b8625425a57b}",
+    "type": "Model",
+    "lastEdited": 1613677503818844,
+    "name": "SKIMI - Farytale Lantern",
+    "dimensions": {
+        "x": 0.3376545310020447,
+        "y": 0.692004382610321,
+        "z": 0.3376545310020447
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": 0.21638822555541992,
+        "z": -0.0000762939453125,
+        "w": 0.9762874841690063
+    },
+    "created": 1613677503817131,
+    "lastEditedBy": "{66952dee-d07d-41ad-ba50-7db28380f4aa}",
+    "queryAACube": {
+        "x": -0.42038410902023315,
+        "y": -0.42038410902023315,
+        "z": -0.42038410902023315,
+        "scale": 0.8407682180404663
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/fairytale-lantern/SKIMI-Fairytale-Lantern.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{24e63c11-d186-4dc2-9e7b-f487b47537e4}",
+  "Version": 132
+}

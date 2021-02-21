@@ -1,0 +1,905 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{1151321a-bd02-45b1-ba91-d149ece7e605}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Large Windows Left 4",
+    "position": {
+        "x": 1.5752449035644531,
+        "y": -2.6211166381835938,
+        "z": -7.352015972137451
+    },
+    "dimensions": {
+        "x": 0.685173511505127,
+        "y": 1.988357663154602,
+        "z": 0.0826725959777832
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "registrationPoint": {
+        "x": 0,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "created": 1613643133546405,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -48.57740020751953,
+        "y": 31.747697830200195,
+        "z": -203.42477416992188,
+        "scale": 2.416247606277466
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage-Large-Window-Left.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{0c132dbf-7caf-4a18-a091-613e84ce5645}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Large Window Right 4",
+    "position": {
+        "x": 2.945964813232422,
+        "y": -2.6210975646972656,
+        "z": -7.352057456970215
+    },
+    "dimensions": {
+        "x": 0.6851732730865479,
+        "y": 1.988357663154602,
+        "z": 0.0826725959777832
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "registrationPoint": {
+        "x": 1,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "created": 1613643133551602,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -47.20668029785156,
+        "y": 31.7476749420166,
+        "z": -203.42477416992188,
+        "scale": 2.4162473678588867
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage-Large-Window-Right.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{971e1d06-e902-4301-9954-d8a1c026c11b}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Veranda Doors",
+    "position": {
+        "x": 6.555622100830078,
+        "y": -2.6115875244140625,
+        "z": 0.002507799305021763
+    },
+    "dimensions": {
+        "x": 0.45500946044921875,
+        "y": 1.994314193725586,
+        "z": 3.9511559009552
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613645262165523,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -44.6137580871582,
+        "y": 30.74079132080078,
+        "z": -197.08660888671875,
+        "scale": 4.4492645263671875
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "static-mesh",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage-Veranda-Doors.gltf?1613645763396",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{d88700ee-2614-40af-8659-63fd6dc8e30e}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Large Windows Left 3",
+    "position": {
+        "x": -2.838756561279297,
+        "y": -2.6212501525878906,
+        "z": -7.395078659057617
+    },
+    "dimensions": {
+        "x": 0.685173511505127,
+        "y": 1.988357663154602,
+        "z": 0.0826725959777832
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": -0.7194476127624512,
+        "z": -0.0000457763671875,
+        "w": 0.6945754289627075
+    },
+    "registrationPoint": {
+        "x": 0,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "created": 1613643109193484,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -52.99140167236328,
+        "y": 31.747697830200195,
+        "z": -203.4679718017578,
+        "scale": 2.416247606277466
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage-Large-Window-Left.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{b5186b90-08b8-490e-a0dc-5a87b1ee27b7}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Front Door",
+    "position": {
+        "x": -6.61474609375,
+        "y": -2.6472396850585938,
+        "z": 0.8239840865135193
+    },
+    "dimensions": {
+        "x": 0.14887475967407227,
+        "y": 1.9443683624267578,
+        "z": 1.0272881984710693
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": -0.6561532020568848,
+        "z": -0.0000152587890625,
+        "w": 0.7546349763870239
+    },
+    "registrationPoint": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 1
+    },
+    "created": 1613642645044756,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -56.97585678100586,
+        "y": 31.513864517211914,
+        "z": -195.4572296142578,
+        "scale": 2.832669496536255
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage-Front-Door.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{b4620245-f661-4160-9787-ef7c3f6368da}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Large Window Right 3",
+    "position": {
+        "x": -1.4695472717285156,
+        "y": -2.6212310791015625,
+        "z": -7.351922988891602
+    },
+    "dimensions": {
+        "x": 0.6851732730865479,
+        "y": 1.988357663154602,
+        "z": 0.0826725959777832
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "registrationPoint": {
+        "x": 1,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "created": 1613643109193557,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -51.6221923828125,
+        "y": 31.7476749420166,
+        "z": -203.42477416992188,
+        "scale": 2.4162473678588867
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage-Large-Window-Right.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{3ba95670-1958-498d-be21-b82be633cde7}",
+    "type": "Box",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "visible": false,
+    "name": "SKIMI - Cottage Fireplace Crickeling Sound",
+    "userData": "{\n  \"soundURL\": \"https://files.tivolicloud.com/skimi/things_app/sounds/SKIMI-fireplace-fire-crackling.wav\",\n  \"soundVolume\": 0.15,\n  \"refreshInterval\": 100,\n  \"grabbableKey\": {\n    \"grabbable\": false\n  }\n}",
+    "position": {
+        "x": -0.0268707275390625,
+        "y": -3.3512001037597656,
+        "z": 6.549545764923096
+    },
+    "dimensions": {
+        "x": 0.20000000298023224,
+        "y": 0.20000000298023224,
+        "z": 0.20000000298023224
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": -0.13478296995162964,
+        "z": -0.0000762939453125,
+        "w": 0.9908751249313354
+    },
+    "created": 1613643313486263,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -49.14504623413086,
+        "y": 32.05300521850586,
+        "z": -188.48831176757812,
+        "scale": 0.3464101552963257
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://files.tivolicloud.com/skimi/things_app/scripts/sound_emitter.js",
+    "color": {
+        "red": 0,
+        "green": 180,
+        "blue": 239
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{88ee211d-1c13-444a-9b5d-5636b0864c08}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Large Window Right 2",
+    "position": {
+        "x": -2.8398170471191406,
+        "y": -2.621723175048828,
+        "z": 7.40928840637207
+    },
+    "dimensions": {
+        "x": 0.6851732730865479,
+        "y": 1.988357663154602,
+        "z": 0.0826725959777832
+    },
+    "rotation": {
+        "x": 0.0000152587890625,
+        "y": -1,
+        "z": -0.0000457763671875,
+        "w": -0.0000457763671875
+    },
+    "registrationPoint": {
+        "x": 1,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "created": 1613643153296840,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -52.99291229248047,
+        "y": 31.7476749420166,
+        "z": -188.66360473632812,
+        "scale": 2.4162473678588867
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage-Large-Window-Right.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{3a9d254e-a546-43b5-ab11-4934fe1afd8c}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Large Windows Left 1",
+    "position": {
+        "x": 2.947307586669922,
+        "y": -2.6215248107910156,
+        "z": 7.409188270568848
+    },
+    "dimensions": {
+        "x": 0.685173511505127,
+        "y": 1.988357663154602,
+        "z": 0.0826725959777832
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": -0.7132524251937866,
+        "z": -0.0000762939453125,
+        "w": -0.7009232044219971
+    },
+    "registrationPoint": {
+        "x": 0,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "created": 1613643018436055,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -47.205787658691406,
+        "y": 31.747697830200195,
+        "z": -188.6635284423828,
+        "scale": 2.416247606277466
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage-Large-Window-Left.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{db500b76-4625-47e0-bb59-5eb20bcf8892}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Large Window Right 1",
+    "position": {
+        "x": 1.5777397155761719,
+        "y": -2.6215896606445312,
+        "z": 7.409153461456299
+    },
+    "dimensions": {
+        "x": 0.6851732730865479,
+        "y": 1.988357663154602,
+        "z": 0.0826725959777832
+    },
+    "rotation": {
+        "x": 0.0000152587890625,
+        "y": -1,
+        "z": -0.0000457763671875,
+        "w": -0.0000457763671875
+    },
+    "registrationPoint": {
+        "x": 1,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "created": 1613642903675398,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -48.575355529785156,
+        "y": 31.7476749420166,
+        "z": -188.66360473632812,
+        "scale": 2.4162473678588867
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage-Large-Window-Right.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{794397af-2b3d-4a3a-a315-350e07b57e57}",
+    "type": "Light",
+    "lastEdited": 1613646176496003,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Fireplace Light",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.020050048828125,
+        "y": -3.296245574951172,
+        "z": 6.585602760314941
+    },
+    "dimensions": {
+        "x": 3.695305109024048,
+        "y": 3.695305109024048,
+        "z": 3.695305109024048
+    },
+    "rotation": {
+        "x": -0.0002899169921875,
+        "y": 0.48186469078063965,
+        "z": 0.0000152587890625,
+        "w": 0.8762187957763672
+    },
+    "created": 1613643313486313,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -52.12514877319336,
+        "y": 29.0809383392334,
+        "z": -191.47927856445312,
+        "scale": 6.400455951690674
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "script": "https://files.tivolicloud.com/skimi/things_app/scripts/light_flickering.js",
+    "scriptTimestamp": 1538602696704,
+    "itemName": "Magic forest lantern",
+    "itemDescription": "A rustic lantern, not onyl for a safe trip in the magic forest.",
+    "itemCategories": "Light systems",
+    "itemArtist": "Skimi",
+    "staticCertificateVersion": 2,
+    "color": {
+        "red": 247,
+        "green": 131,
+        "blue": 42
+    },
+    "intensity": 40.52831268310547,
+    "cutoff": 90,
+    "falloffRadius": 0.20000000298023224,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{f5f59f89-6c8b-4d42-8d34-86c56515b929}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Large Windows Left 2",
+    "position": {
+        "x": -1.4690971374511719,
+        "y": -2.6216583251953125,
+        "z": 7.409246444702148
+    },
+    "dimensions": {
+        "x": 0.685173511505127,
+        "y": 1.988357663154602,
+        "z": 0.0826725959777832
+    },
+    "rotation": {
+        "x": 0.0000152587890625,
+        "y": -1,
+        "z": -0.0000457763671875,
+        "w": -0.0000457763671875
+    },
+    "registrationPoint": {
+        "x": 0,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "created": 1613643153296622,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -51.6221923828125,
+        "y": 31.747697830200195,
+        "z": -188.66360473632812,
+        "scale": 2.416247606277466
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage-Large-Window-Left.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{2ba5eff9-b73d-4216-aee2-81cc54f23ca0}",
+    "type": "ParticleEffect",
+    "lastEdited": 1613646043433708,
+    "parentID": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "name": "SKIMI - Cottage Fireplace Fire",
+    "position": {
+        "x": 0.05542755126953125,
+        "y": -3.5005226135253906,
+        "z": 6.645211219787598
+    },
+    "dimensions": {
+        "x": 27.855022430419922,
+        "y": 27.855022430419922,
+        "z": 27.855022430419922
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": -0.0000457763671875,
+        "z": -0.0000457763671875,
+        "w": 1
+    },
+    "created": 1613643313486187,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -73.01271057128906,
+        "y": 7.953731536865234,
+        "z": -212.34259033203125,
+        "scale": 48.246315002441406
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "ellipsoid",
+    "alpha": 0.25,
+    "textures": "tea://skimi/things_app/particles/fire_4.png",
+    "maxParticles": 53,
+    "emitRate": 191,
+    "emitSpeed": 0.10000000149011612,
+    "speedSpread": 0,
+    "emitOrientation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "emitDimensions": {
+        "x": 0.029999999329447746,
+        "y": 0.029999999329447746,
+        "z": 0.029999999329447746
+    },
+    "polarFinish": 3.1415927410125732,
+    "emitAcceleration": {
+        "x": 0,
+        "y": 2.5,
+        "z": 0
+    },
+    "particleRadius": 0.30000001192092896,
+    "radiusStart": 0,
+    "radiusFinish": null,
+    "colorStart": {
+        "red": 0,
+        "green": 0,
+        "blue": 0
+    },
+    "colorFinish": {
+        "red": 0,
+        "green": 0,
+        "blue": 0
+    },
+    "alphaStart": 0.5,
+    "alphaFinish": null,
+    "emitterShouldTrail": true,
+    "spinStart": null,
+    "spinFinish": null,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{e0a5c54e-a8dd-4f31-bd34-51a0fec50eda}",
+    "type": "Model",
+    "lastEdited": 1613646043433708,
+    "name": "SKIMI - Cottage",
+    "dimensions": {
+        "x": 14.456035614013672,
+        "y": 7.7353196144104,
+        "z": 15.861403465270996
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613642566584039,
+    "lastEditedBy": "{4f214a20-1284-4059-a645-760b59d8848f}",
+    "queryAACube": {
+        "x": -11.406097412109375,
+        "y": -11.406097412109375,
+        "z": -11.406097412109375,
+        "scale": 22.81219482421875
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "static-mesh",
+    "modelURL": "tea://skimi/things_app/cottage/SKIMI-Cottage.gltf?1613642849587",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{f7c4e871-110f-4b3f-965a-0ced8fcd6c57}",
+  "Version": 132
+}

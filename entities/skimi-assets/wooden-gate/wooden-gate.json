@@ -1,0 +1,126 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{d30226f9-ac70-41ca-8744-2d58a5ed1777}",
+    "type": "Model",
+    "lastEdited": 1613723833740776,
+    "name": "SKIMI - Wooden Gate Left",
+    "dimensions": {
+        "x": 0.07758331298828125,
+        "y": 2.0758795738220215,
+        "z": 1.793467402458191
+    },
+    "rotation": {
+        "x": -0.0006256103515625,
+        "y": -1,
+        "z": 0.0005950927734375,
+        "w": -0.0000152587890625
+    },
+    "registrationPoint": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0
+    },
+    "created": 1613723360976710,
+    "lastEditedBy": "{1421cb79-ccfb-424a-93c7-d1bc2bbe79bd}",
+    "queryAACube": {
+        "x": -2.0725224018096924,
+        "y": -2.0725224018096924,
+        "z": -2.0725224018096924,
+        "scale": 4.145044803619385
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/wooden-gate/SKIMI-Wooden-Gate-L.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{2f41be5f-f905-4e01-b3f5-53d8471d4c1f}",
+    "type": "Model",
+    "lastEdited": 1613723849488378,
+    "name": "SKIMI - Wooden Gate Right",
+    "position": {
+        "x": 0,
+        "y": 0.00000858306884765625,
+        "z": 1.8149490356445312
+    },
+    "dimensions": {
+        "x": 0.07758331298828125,
+        "y": 2.075900077819824,
+        "z": 1.7915239334106445
+    },
+    "rotation": {
+        "x": -0.0002288818359375,
+        "y": -0.29240864515304565,
+        "z": -0.0000152587890625,
+        "w": 0.9562675952911377
+    },
+    "registrationPoint": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 1
+    },
+    "created": 1613723360974700,
+    "lastEditedBy": "{1421cb79-ccfb-424a-93c7-d1bc2bbe79bd}",
+    "queryAACube": {
+        "x": -2.0708460807800293,
+        "y": -2.0708374977111816,
+        "z": -0.25589704513549805,
+        "scale": 4.141692161560059
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/wooden-gate/SKIMI-Wooden-Gate-R.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{ddccdf47-c576-4bda-a013-225aa603a6fc}",
+  "Version": 132
+}

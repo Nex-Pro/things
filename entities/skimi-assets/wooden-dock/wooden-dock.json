@@ -1,0 +1,59 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{c56e80b3-70e6-47af-bada-5a92b52b2011}",
+    "type": "Model",
+    "lastEdited": 1613573340265637,
+    "name": "SKIMI  - Wooden Dock",
+    "dimensions": {
+        "x": 9.953433990478516,
+        "y": 8.49356746673584,
+        "z": 6.874829292297363
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613573329376385,
+    "lastEditedBy": "{c454f9c3-a5ba-4d45-a5b6-e4893d45b7a7}",
+    "queryAACube": {
+        "x": -7.390446662902832,
+        "y": -7.390446662902832,
+        "z": -7.390446662902832,
+        "scale": 14.780893325805664
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "static-mesh",
+    "modelURL": "tea://skimi/things_app/wooden-dock/wooden-dock.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{d0cb46e7-0235-4a8b-98f9-1af246461e01}",
+  "Version": 132
+}

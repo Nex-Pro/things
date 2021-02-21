@@ -1,0 +1,349 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{8ce0bac7-03e6-4443-988b-4ed453425232}",
+    "type": "Model",
+    "lastEdited": 1613735279529183,
+    "name": "SKIMI - Cat Head Fence 200cm extension",
+    "position": {
+        "x": 1.9679126739501953,
+        "y": 0.1219015121459961,
+        "z": 0.4272613525390625
+    },
+    "dimensions": {
+        "x": 1.98916494846344,
+        "y": 1.238669991493225,
+        "z": 0.04877424240112305
+    },
+    "rotation": {
+        "x": -0.0001068115234375,
+        "y": -0.0000457763671875,
+        "z": -0.0001373291015625,
+        "w": 1
+    },
+    "created": 1613734732661984,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": 0.7960062026977539,
+        "y": -1.0500049591064453,
+        "z": -0.7446451187133789,
+        "scale": 2.343812942504883
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cat-head-fence/SKIMI-Cat-Head-Fence-200cm-Extension.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{3859e45f-6ea1-44f0-8d69-3eb759a7e94f}",
+    "type": "Model",
+    "lastEdited": 1613735324329026,
+    "name": "SKIMI - Cat Head Fence Post Triple",
+    "position": {
+        "x": 0.03360748291015625,
+        "y": 0.004326820373535156,
+        "z": 0
+    },
+    "dimensions": {
+        "x": 0.3584812879562378,
+        "y": 1.712018609046936,
+        "z": 0.22400832176208496
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613734863881832,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": -0.8481090664863586,
+        "y": -0.8773897290229797,
+        "z": -0.8817165493965149,
+        "scale": 1.7634330987930298
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cat-head-fence/SKIMI-Cat-Head-Fence-Post-Triple.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{f849f1fe-5bdb-4206-910d-d7e85d419d31}",
+    "type": "Model",
+    "lastEdited": 1613735314582135,
+    "name": "SKIMI - Cat Head Fence Post Double",
+    "position": {
+        "x": 0,
+        "y": 0.00438690185546875,
+        "z": 0.5371627807617188
+    },
+    "dimensions": {
+        "x": 0.3584812879562378,
+        "y": 1.7120184898376465,
+        "z": 0.11174225807189941
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1613734786833114,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": -0.8763564229011536,
+        "y": -0.8719695210456848,
+        "z": -0.3391936421394348,
+        "scale": 1.7527128458023071
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cat-head-fence/SKIMI-Cat-Head-Fence-Post-Double.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{76f36da1-ed43-4d33-a15a-04f42999b141}",
+    "type": "Model",
+    "lastEdited": 1613735300775613,
+    "name": "SKIMI - Cat Head Fence Post Single",
+    "position": {
+        "x": 0.5587673187255859,
+        "y": 0.00428009033203125,
+        "z": 0.03137969970703125
+    },
+    "dimensions": {
+        "x": 0.24051308631896973,
+        "y": 1.7120184898376465,
+        "z": 0.11174225807189941
+    },
+    "rotation": {
+        "x": -0.0000762939453125,
+        "y": -0.0000152587890625,
+        "z": -0.0001068115234375,
+        "w": 1
+    },
+    "created": 1613734809737323,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": -0.3074514865875244,
+        "y": -0.8619387149810791,
+        "z": -0.8348391056060791,
+        "scale": 1.7324376106262207
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cat-head-fence/SKIMI-Cat-Head-Fence-Post-Single.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7e546a3d-f599-46aa-bc27-87ff691cfeda}",
+    "type": "Model",
+    "lastEdited": 1613735269722089,
+    "name": "SKIMI - Cat Head Fence 160cm",
+    "position": {
+        "x": 3.1284523010253906,
+        "y": 0.1226043701171875,
+        "z": 0.9675369262695312
+    },
+    "dimensions": {
+        "x": 1.626571536064148,
+        "y": 1.238669991493225,
+        "z": 0.04877433180809021
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0001373291015625,
+        "w": 1
+    },
+    "created": 1613734465104048,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": 2.1059043407440186,
+        "y": -0.8999435901641846,
+        "z": -0.05501103401184082,
+        "scale": 2.045095920562744
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cat-head-fence/SKIMI-Cat-Head-Fence-160cm.gltf?1613734685768",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{d7582501-bbbd-415b-ab20-7494ae2497bd}",
+    "type": "Model",
+    "lastEdited": 1613735307437701,
+    "name": "SKIMI - Cat Head Fence Post Corner",
+    "position": {
+        "x": 0.4326438903808594,
+        "y": 0,
+        "z": 0.5933151245117188
+    },
+    "dimensions": {
+        "x": 0.24051296710968018,
+        "y": 1.7120184898376465,
+        "z": 0.22400835156440735
+    },
+    "rotation": {
+        "x": -0.0001373291015625,
+        "y": -1,
+        "z": 0.0000457763671875,
+        "w": -0.0000762939453125
+    },
+    "created": 1613734763794006,
+    "lastEditedBy": "{4bec107e-7c84-4310-a73d-2b9694959ec6}",
+    "queryAACube": {
+        "x": -0.4389973282814026,
+        "y": -0.871641218662262,
+        "z": -0.2783260941505432,
+        "scale": 1.743282437324524
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "simple-hull",
+    "modelURL": "tea://skimi/things_app/cat-head-fence/SKIMI-Cat-Head-Fence-Post-Corner.gltf",
+    "blendshapeCoefficients": "{}",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{e62f274c-dc9a-4633-8d0c-6ae897ea59f9}",
+  "Version": 132
+}
