@@ -1,43 +1,59 @@
 stages:
     - deploy
 
-push to s3:
+pages:
     stage: deploy
-    image: alpine:latest
-    variables:
-        S3_BUCKET: tivolicloud-things
-        S3_REGION: us-east-1
-        # CLOUDFRONT_ID: E3UZ30F1ITWQYT
-        # AWS_ACCESS_KEY_ID
-        # AWS_SECRET_ACCESS_KEY
+    image: node:lts
     script:
-        # - apk add nodejs rclone aws-cli
-        - apk add nodejs rclone
-
         - node generate-index.js
         # - node generate-brotli.js
 
-        # init rclone config
-        - mkdir -p ~/.config/rclone
-        - echo "[s3]" > ~/.config/rclone/rclone.conf
-        - echo "type = s3" >> ~/.config/rclone/rclone.conf
-        - echo "provider = AWS" >> ~/.config/rclone/rclone.conf
-        - echo "env_auth = true" >> ~/.config/rclone/rclone.conf
-        - echo "region = $S3_REGION" >> ~/.config/rclone/rclone.conf
-        - echo "acl = private" >> ~/.config/rclone/rclone.conf
-
-        # upload content and index.json
         - mkdir public
         - mv avatars public
         - mv scripts public
         - mv entities public
         - mv index.json public
-        - cd public
+    artifacts:
+        paths:
+            - public
+#
+# push to s3:
+#     stage: deploy
+#     image: alpine:latest
+#     variables:
+#         S3_BUCKET: tivolicloud-things
+#         S3_REGION: us-east-1
+#         # CLOUDFRONT_ID: E3UZ30F1ITWQYT
+#         # AWS_ACCESS_KEY_ID
+#         # AWS_SECRET_ACCESS_KEY
+#     script:
+#         # - apk add nodejs rclone aws-cli
+#         - apk add nodejs rclone
 
-        - rclone sync -P . s3:$S3_BUCKET
+#         - node generate-index.js
+#         # - node generate-brotli.js
 
-        # # invalidate cloudfront
-        # - aws configure set region $S3_REGION
-        # - aws cloudfront create-invalidation
-        #   --distribution-id $CLOUDFRONT_ID
-        #   --paths "/index.json"
+#         # init rclone config
+#         - mkdir -p ~/.config/rclone
+#         - echo "[s3]" > ~/.config/rclone/rclone.conf
+#         - echo "type = s3" >> ~/.config/rclone/rclone.conf
+#         - echo "provider = AWS" >> ~/.config/rclone/rclone.conf
+#         - echo "env_auth = true" >> ~/.config/rclone/rclone.conf
+#         - echo "region = $S3_REGION" >> ~/.config/rclone/rclone.conf
+#         - echo "acl = private" >> ~/.config/rclone/rclone.conf
+
+#         # upload content and index.json
+#         - mkdir public
+#         - mv avatars public
+#         - mv scripts public
+#         - mv entities public
+#         - mv index.json public
+#         - cd public
+
+#         - rclone sync -P . s3:$S3_BUCKET
+
+#         # # invalidate cloudfront
+#         # - aws configure set region $S3_REGION
+#         # - aws cloudfront create-invalidation
+#         #   --distribution-id $CLOUDFRONT_ID
+#         #   --paths "/index.json"
