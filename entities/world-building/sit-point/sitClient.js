@@ -20,7 +20,7 @@
 /* globals Entities, Script, AnimationCache, Settings, MyAvatar, DriveKeys, AvatarList,
  Vec3, HMD, Overlays, Camera, isInEditMode */
 
-(function () {
+ (function () {
 
     // #region CONFIGURABLE VARIABLES
 
@@ -527,6 +527,8 @@
 
         MyAvatar.characterControllerEnabled = false;
         MyAvatar.hmdLeanRecenterEnabled = false;
+        
+        MyAvatar.beginSit(MyAvatar.position, MyAvatar.orientation);
 
         var roles = rolesToOverride();
 
@@ -695,6 +697,8 @@
         } else {
             // Avatar switched to another chair, do not reapply the animation roles
         }
+
+        MyAvatar.endSit(MyAvatar.position, MyAvatar.orientation);
 
         Script.update.disconnect(update);
         MyAvatar.scaleChanged.disconnect(standUp);
