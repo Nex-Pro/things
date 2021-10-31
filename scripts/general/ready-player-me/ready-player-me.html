@@ -388,13 +388,29 @@
 
 			const d = document;
 
-			function onUpload() {
+			async function onUpload() {
 				d.getElementById("upload").style.display = "none";
 				d.getElementById("uploading").style.display = "";
 
 				const name = d.getElementById("upload-name").value;
 				d.getElementById("uploading-name").innerText = name;
-				emitEvent("upload", { name, avatarUrl });
+
+				const res = await fetch(
+					"https://tivolicloud.com/api/user/files/ready-player-me",
+					{
+						method: "POST",
+						headers: {
+							"Content-Type": "application/json"
+						},
+						body: JSON.stringify({
+							name,
+							avatarUrl
+						})
+					}
+				);
+
+				const data = await res.json();
+				emitEvent("finish", { avatarUrl: data.avatarUrl });
 			}
 
 			function onAvatarUrl() {

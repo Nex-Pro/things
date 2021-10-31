@@ -22,15 +22,6 @@ function emitEvent(key, value) {
 	);
 }
 
-function onUpload(name, avatarUrl) {
-	var response = Metaverse.readyPlayerMe(name, avatarUrl);
-	MyAvatar.useFullAvatarURL(
-		response.avatarUrl,
-		response.avatarUrl.split("/").pop()
-	);
-	setActive(false);
-}
-
 overlayWebWindow.webEventReceived.connect(function (jsonStr) {
 	var data = null;
 	try {
@@ -45,9 +36,12 @@ overlayWebWindow.webEventReceived.connect(function (jsonStr) {
 		case "username":
 			emitEvent("username", AccountServices.username);
 			break;
-		case "upload":
-			onUpload(data.value.name, data.value.avatarUrl);
-			break;
+		case "finish":
+			MyAvatar.useFullAvatarURL(
+				data.value.avatarUrl,
+				data.value.avatarUrl.split("/").pop()
+			);
+			setActive(false);
 	}
 });
 
