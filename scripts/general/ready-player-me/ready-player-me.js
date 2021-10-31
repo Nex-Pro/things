@@ -47,7 +47,7 @@ overlayWebWindow.webEventReceived.connect(function (jsonStr) {
 
 function setActive(active) {
 	button.editProperties({ isActive: active });
-	overlayWebWindow.setURL(Script.resolvePath("ready-player-me.html"));
+	overlayWebWindow.setURL(Script.resolvePath("ready-player-me.html") + "?1");
 	overlayWebWindow.setVisible(active);
 }
 
